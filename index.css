@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Timerfont;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 50px 82px 0px;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin:0px;
+    text-align: center;
+    color:#FCD34D;
+    text-shadow: 0px 0px 3px black;
+}
+
+.score{
+    text-align: center;
+    font-size: 90px;
+    margin: 21px 0px 26px;
+    padding:10px 20px 0px;
+    color:#F94F6D;
+    background: #080001;
+    width:155px;
+    font-family: Timerfont;
+    border-radius: 5px;
+}
+.score span{
+    line-height: 120px;
+}
+
+.score-add{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding:13px 14px;
+    font-family: Timerfont;
+    border:2px solid #38BDF8;
+    color: #38BDF8;
+    background: none;
+    border-radius: 5px;
+}
+
+#new-game{
+    margin:40px auto;
+    display: block;
+    font-size: 20px;
+}
+
+#timer{
+    width: 300px;
+    margin: 50px auto 0px;
+}
